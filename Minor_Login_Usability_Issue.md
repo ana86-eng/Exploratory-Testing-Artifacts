@@ -1,7 +1,7 @@
 ### Minor Bug Report: Ambiguous Error Message on Failed Login
 
-**Severity:** S3 (Minor)
-**Priority:** P3 (Low - Cosmetic/Usability)
+**Severity:** S3 
+**Priority:** P3
 **Product:** Authentication Module
 **Component:** Login Form
 
@@ -15,7 +15,7 @@ When a user attempts to log in with either an incorrect username OR an incorrect
 2. **Scenario 1 (Invalid Username):** Enter `notaregisterduser@test.com` and a correct password. Click Login.
 3. **Scenario 2 (Invalid Password):** Enter a correct, registered username and an intentionally wrong password. Click Login.
 
-**Expected Result (Usability Best Practice):**
+**Expected Result**
 * **For Scenario 1 (Invalid Username):** The message should be clear, such as: "The username/email entered is not recognized."
 * **For Scenario 2 (Invalid Password):** The message should be: "The password entered is incorrect."
 
